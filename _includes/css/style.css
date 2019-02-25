@@ -1,0 +1,38 @@
+.bg-one {
+    background-color: #{{ site.data.template.color.dark-one }};
+}
+
+.bg-two {
+    background-color: #{{ site.data.template.color.dark-two }};
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+
+header, section {
+    overflow: auto;
+    padding: 30px 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h2, h3 {
+    color: #{{ site.data.template.color.light-one }};
+    font-family: {{ site.data.template.font.header }};
+    font-weight: 500;
+}
+
+body {
+    color: #{{ site.data.template.color.light-two }};
+    font-family: {{ site.data.template.font.body }};
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+}

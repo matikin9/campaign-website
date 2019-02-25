@@ -1,0 +1,11 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  dark-one: 6596a6
+  dark-two: 4e5d6a
+  light-one: 7bcee1
+  light-two: d9e3e7
+
+# Font Families
+font:
+  header: 'Roboto Mono,sans-serif'
+  body: 'Quicksand,sans-serif'

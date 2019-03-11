@@ -12,6 +12,11 @@
     background-color: #{{ site.data.template.color.dark-one }};
 }
 
+.emphasize-header {
+    font-family: 'Permanent Marker';
+    font-size: 3em;
+}
+
 
 nav {
     padding: 10px;

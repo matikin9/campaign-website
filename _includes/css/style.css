@@ -1,14 +1,15 @@
 .bg-one {
-    background-color: #{{ site.data.template.color.dark-one }};
+    background-color: #{{ site.data.template.color.accent-one }};
     
 }
 
 .bg-one h1, .bg-one h2, .bg-one p {
-    color: #{{ site.data.template.color.accent-one }};
+    color: #{{ site.data.template.color.dark-one }};
 }
 
+
 .bg-two {
-    background-color: #{{ site.data.template.color.dark-two }};
+    background-color: #{{ site.data.template.color.dark-one }};
 }
 
 

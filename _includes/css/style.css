@@ -1,10 +1,16 @@
 .bg-one {
     background-color: #{{ site.data.template.color.dark-one }};
+    
+}
+
+.bg-one h1, .bg-one h2, .bg-one p {
+    color: #{{ site.data.template.color.accent-one }};
 }
 
 .bg-two {
     background-color: #{{ site.data.template.color.dark-two }};
 }
+
 
 nav {
     padding: 10px;
@@ -22,13 +28,13 @@ h1 {
 }
 
 h1, h2, h3 {
-    color: #{{ site.data.template.color.light-one }};
+    color: #{{ site.data.template.color.accent-two }};
     font-family: {{ site.data.template.font.header }};
     font-weight: 500;
 }
 
 body {
-    color: #{{ site.data.template.color.light-two }};
+    color: #{{ site.data.template.color.accent-two }};
     font-family: {{ site.data.template.font.body }};
     font-size: 18px;
 }

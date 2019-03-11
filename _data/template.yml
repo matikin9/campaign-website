@@ -1,9 +1,9 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  dark-one: 6596a6
-  dark-two: 4e5d6a
-  light-one: 7bcee1
-  light-two: d9e3e7
+  dark-one: '000000' # black
+  dark-two: '424242' # dark gray
+  accent-one: ffff0d # yellow
+  accent-two: dc0b7c # magenta
 
 # Font Families
 font:

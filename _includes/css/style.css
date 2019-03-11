@@ -3,7 +3,7 @@
     
 }
 
-.bg-one h1, .bg-one h2, .bg-one p {
+.bg-one h1, .bg-one h2, .bg-one h3, .bg-one p, .bg-one li {
     color: #{{ site.data.template.color.dark-one }};
 }
 

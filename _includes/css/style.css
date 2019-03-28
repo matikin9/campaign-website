@@ -11,29 +11,36 @@
     vertical-align: top;
 }
 
-#section0 h1, #section0 p {
+#section0 h1 {
     display: inline-block;
 	background: #{{ site.data.template.color.dark-two }};
-    padding: 10px;
-    margin-top: 50px;
+    margin-top: 40px;
+    padding: 15px 20px;
 }
 
-#header, #footer{
+#section0 p {
+    display: inline-block;
+	background: #{{ site.data.template.color.dark-two }};
+	margin-top: 20px;
+    padding: 10px 15px;
+}
+
+#header {
 	position: fixed;
 	display: block;
 	width: 100%;
 	background: #{{ site.data.template.color.dark-two }};
 	z-index: 9;
 	text-align: right;
-	color: #f2f2f2;
 	padding: 5px 50px 0 0;
 }
 
 #header{
 	top:0px;
 }
-#footer{
-	bottom:0px;
+
+#footer {
+    padding: 30px 50px;
 }
 
 #menu li {
@@ -71,12 +78,12 @@ body {
 
 a {
     font-family: {{ site.data.template.font.body }};
+    font-weight: bold;
     color: inherit;
     text-decoration: underline;
 }
 
 a#donate-link {
-    font-size: x-large;
-    
+    font-size: xx-large;
     font-family: {{ site.data.template.font.header-emphasis }};
 }

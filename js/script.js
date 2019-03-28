@@ -3,13 +3,12 @@
 var myFullpage = new fullpage('#fullpage', {
     //Sections
     menu: '#menu',
-    anchors:['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection', 'seventhSection'],
 
 	//Design
-	sectionsColor : ['#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#fff'],
+	sectionsColor : ['#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#222'],
 	paddingTop: '3em',
-	paddingBottom: '10px',
-	fixedElements: '#header, #footer',
+	paddingBottom: '30px',
+	fixedElements: '#header',
 	verticalCentered: true,
 	
 	licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',

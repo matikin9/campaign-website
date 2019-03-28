@@ -83,7 +83,18 @@ a {
     text-decoration: underline;
 }
 
-a#donate-link {
+#donate-link {
     font-size: xx-large;
     font-family: {{ site.data.template.font.header-emphasis }};
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    .emphasize-header {
+        font-family: {{ site.data.template.font.header-emphasis }};
+        font-size: 2em;
+    }
 }

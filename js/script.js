@@ -3,6 +3,10 @@
 var myFullpage = new fullpage('#fullpage', {
     //Sections
     menu: '#menu',
+    
+    // Scrolling
+    autoScrolling: false,
+    fitToSection: false,
 
 	//Design
 	sectionsColor : ['#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#222'],

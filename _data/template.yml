@@ -1,11 +1,12 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   dark-one: '000000' # black
-  dark-two: '424242' # dark gray
+  dark-two: '222' # dark gray
   accent-one: ffff0d # yellow
   accent-two: dc0b7c # magenta
 
 # Font Families
 font:
+  header-emphasis: 'Permanent Marker,serif'
   header: 'Roboto Mono,sans-serif'
   body: 'Quicksand,sans-serif'

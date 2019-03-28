@@ -4,17 +4,26 @@
 {% include head.html %}
 
 <body>
-  {% include nav.html %}
-  {% include header.html %}
+  <div id="header">
+    {% include nav.html %}
+  </div>
+  
+  <div id="fullpage">
+  	<div class="section" id="section0">{% include header.html %}</div>
+  	<div class="section">{% include why.html %}</div>
+  	<div class="section">{% include issues.html %}</div>
+  	<div class="section">{% include opportunity.html %}</div>
+  	<div class="section">{% include win.html %}</div>
+  	<div class="section">{% include do.html %}</div>
+  	<div class="section">{% include sign-up.html %}</div>
+  </div>
+  
+  <div id="footer">
+    
+  </div>
 
-    {% include city-council.html %}
-    {% include issues.html %}
-    {% include opportunity.html %}
-    {% include win.html %}
-
-    {% include do.html %}
-    {% include sign-up.html %}
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

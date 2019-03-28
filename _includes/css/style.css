@@ -1,37 +1,61 @@
-.bg-one {
-    background-color: #{{ site.data.template.color.accent-one }};
-    
+.section {
+    padding: 0px 50px;
 }
 
-.bg-one h1, .bg-one h2, .bg-one h3, .bg-one p, .bg-one li {
-    color: #{{ site.data.template.color.dark-one }};
+#section0 {
+    background: url('img/iw_military.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
+#section0 .fp-tableCell {
+    vertical-align: top;
+}
 
-.bg-two {
-    background-color: #{{ site.data.template.color.dark-one }};
+#section0 h1, #section0 p {
+    display: inline-block;
+	background: #{{ site.data.template.color.dark-two }};
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#header, #footer{
+	position: fixed;
+	display: block;
+	width: 100%;
+	background: #{{ site.data.template.color.dark-two }};
+	z-index: 9;
+	text-align: right;
+	color: #f2f2f2;
+	padding: 5px 50px 0 0;
+}
+
+#header{
+	top:0px;
+}
+#footer{
+	bottom:0px;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #{{ site.data.template.color.accent-two }};
 }
 
 .emphasize-header {
-    font-family: 'Permanent Marker';
+    font-family: {{ site.data.template.font.header-emphasis }};
     font-size: 3em;
-}
-
-
-nav {
-    padding: 10px;
-    text-align: right;
-    font-size: 20px;
-}
-
-header, section {
-    overflow: auto;
-    padding: 30px 50px;
 }
 
 h1 {
     font-size: 50px;
 }
+
+h2 {
+    margin-bottom: 50px;
+}
+
 
 h1, h2, h3 {
     color: #{{ site.data.template.color.accent-two }};
@@ -46,7 +70,13 @@ body {
 }
 
 a {
+    font-family: {{ site.data.template.font.body }};
     color: inherit;
-    font-weight: bold;
     text-decoration: underline;
+}
+
+a#donate-link {
+    font-size: x-large;
+    
+    font-family: {{ site.data.template.font.header-emphasis }};
 }

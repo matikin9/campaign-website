@@ -13,14 +13,14 @@
 
 #section0 h1 {
     display: inline-block;
-	background: #{{ site.data.template.color.dark-two }};
+	background: #{{ site.data.template.color.dark-one }};
     margin-top: 40px;
     padding: 15px 20px;
 }
 
 #section0 p {
     display: inline-block;
-	background: #{{ site.data.template.color.dark-two }};
+	background: #{{ site.data.template.color.dark-one }};
 	margin-top: 20px;
     padding: 10px 15px;
 }
@@ -29,18 +29,19 @@
 	position: fixed;
 	display: block;
 	width: 100%;
-	background: #{{ site.data.template.color.dark-two }};
+	background: #{{ site.data.template.color.dark-one }};
 	z-index: 9;
 	text-align: right;
 	padding: 5px 50px 0 0;
 }
 
-#header{
+#header {
 	top:0px;
 }
 
-#footer {
+#section-last {
     padding: 30px 50px;
+	background: #{{ site.data.template.color.accent-one }};
 }
 
 #menu li {
@@ -53,6 +54,7 @@
 .emphasize-header {
     font-family: {{ site.data.template.font.header-emphasis }};
     font-size: 3em;
+    text-shadow: 4px -4px #{{ site.data.template.color.accent-one }};
 }
 
 h1 {
@@ -86,6 +88,7 @@ a {
 #donate-link {
     font-size: xx-large;
     font-family: {{ site.data.template.font.header-emphasis }};
+    text-shadow: 2px -2px #{{ site.data.template.color.accent-one }};
 }
 
 @media (max-width:768px) {
@@ -96,5 +99,6 @@ a {
     .emphasize-header {
         font-family: {{ site.data.template.font.header-emphasis }};
         font-size: 2em;
+        text-shadow: 4px -4px #{{ site.data.template.color.accent-one }};
     }
 }

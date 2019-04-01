@@ -40,6 +40,7 @@
 }
 
 #section-last {
+    color: #fff;
     padding: 30px 50px;
 	background: #{{ site.data.template.color.accent-one }};
 }

@@ -3,7 +3,7 @@
 }
 
 #section0 {
-    background: url('img/iw_military.jpg') no-repeat center center fixed;
+    background: url('img/iw_military.jpg') no-repeat center center; /* fixed */
     background-size: cover;
 }
 

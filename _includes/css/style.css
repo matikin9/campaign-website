@@ -16,6 +16,7 @@
 	background: #{{ site.data.template.color.dark-one }};
     margin-top: 40px;
     padding: 15px 20px;
+    opacity: 0.8;
 }
 
 #section0 p {

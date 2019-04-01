@@ -103,4 +103,8 @@ a {
         font-size: 2em;
         text-shadow: 4px -4px #{{ site.data.template.color.accent-one }};
     }
+    
+    #menu li {
+        font-size: smaller;
+    }
 }

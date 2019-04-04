@@ -13,8 +13,9 @@
 
 #section0 h1 {
     display: inline-block;
+    position: relative;
+    margin: 40px auto 0 auto;
 	background: #{{ site.data.template.color.dark-one }};
-    margin-top: 40px;
     padding: 15px 20px;
     opacity: 0.8;
 }

@@ -9,7 +9,7 @@ var myFullpage = new fullpage('#fullpage', {
     fitToSection: false,
 
 	//Design
-	sectionsColor : ['#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#222'],
+	sectionsColor : ['#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#fff', '#ffff0d', '#222'],
 	paddingTop: '3em',
 	paddingBottom: '30px',
 	fixedElements: '#header',
